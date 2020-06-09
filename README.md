@@ -1,2 +1,2 @@
 # CV
-my first website
+Curriculum Vitae

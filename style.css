@@ -1,0 +1,136 @@
+html, body{
+
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    height: 100%;
+    
+}
+body{
+    background-image: url("back4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+
+}
+
+.sidebar-navigation {
+    margin-top: -65px;
+    width: 9.5%;
+    float: left;
+    height: 100%;
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.9);
+    opacity: 0.8;
+}
+
+.header {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 12.5%;
+    width: inherit;
+    height: 50px;
+    opacity: 0.6;
+}
+
+.header h1{
+    margin: 0;
+    font-family: Calligraffitti;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+    float: left;
+}
+.header li{
+    color: black;
+    display: inline;
+    float: right;
+    margin-right: 50px;
+}
+.header li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 1px;
+    position: relative;
+}
+.header li a:after{
+    color: black;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.header li a:hover:after{
+    color: black;
+    width: 100%;
+    left: 0;
+}
+
+.grid-container{
+
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    align-content: center;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
+
+.grid-item:hover{
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.item-1, .item-2, .item-3, .item-4{
+    color: transparent;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: Calligraffitti;
+    transition: 1s;
+    box-shadow: 0 15px 40px 0 rgba(166,173,201,.2), 0 5px 10px 0 rgba(154,160,185,.05);
+}
+.item-1:hover, .item-2:hover, .item-3:hover, .item-4:hover{
+    color:black;
+}    
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+}
