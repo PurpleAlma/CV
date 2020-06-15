@@ -98,18 +98,19 @@ h2{
 
 .grid-item:hover{
     opacity: 1;
-    -webkit-animation: flash 1.5s;
-    animation: flash 1.5s;
+
 }
 
 
 .item-a, .item-b, .item-c, .item-d{
     background-color: white;
+    justify-content: center;
     opacity: 0.2;
+    cursor: pointer;
     color: transparent;
     padding: 16px 32px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     font-family: Calligraffitti;
     transition: 1s;
@@ -118,6 +119,12 @@ h2{
 .item-a:hover, .item-b:hover, .item-c:hover, .item-d:hover{
     color:black;
 }    
+.item-a img, .item-b img, .item-c img, .item-d img{
+    width: 310px;
+    height: 310px;
+    display: flex;
+    margin-left: 10px;
+} 
 
 
 /*this is the skills page */
@@ -181,7 +188,6 @@ h2{
     left:26px;
     top: 26px;
     opacity: 1;
-    
 }
 .skill-title{
     background-color: #000000;
@@ -340,7 +346,17 @@ h2{
     position: absolute;
     left: 0;
 }
-
+.resume p{
+    position: relative;
+    font-size: x-large;
+    color:black
+}
+.resume img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 48%;
+}
 
 /* the footer*/
 .footer {
