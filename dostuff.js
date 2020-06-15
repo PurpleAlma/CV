@@ -10,4 +10,4 @@ $(document).ready(function(){
     });
 });
 
-//https://purplealma.github.io/CV/
+//https://purplealma.github.io/CV/home
