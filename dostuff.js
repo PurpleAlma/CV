@@ -29,4 +29,3 @@ $(document).ready(function(){
         $(this).html((i, t) => t == 'Hide' ? 'Show' : 'Hide');
     });
 });
-new RegExp(/aeiou/g/)

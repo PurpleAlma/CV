@@ -77,6 +77,9 @@ body{
     width: 100%;
     left: 0;
 }
+h2{
+    text-decoration: underline;
+}
 .active-li  {
     color:red !important
 }
@@ -249,28 +252,94 @@ body{
     box-shadow: 11px 5px 3px 0px #000000;
 }
 /*about*/
+.boring-summary-button {
+	box-shadow:inset 0px 1px 3px 0px #000000;
+	background:linear-gradient(to bottom, #333333 5%, #616161 100%);
+	background-color:#333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px 3px 1px #000000;
+}
+.boring-summary-button:hover {
+	background:linear-gradient(to bottom, #616161 5%, #333333 100%);
+	background-color:#616161;
+}
+.boring-summary-button:active {
+	position:relative;
+	top:1px;
+}
 .main-summary-box{
     position: relative;
     margin-top: 100px;
-    border: 2px solid red;
     margin-left: 20%;
     margin-right: 20%;
-    color:white
+    color:white;
 }
 .boring-summary{
-    background: rgba(37, 37, 37, 0.7); 
+    background: rgba(7, 7, 7, 0.7);
     padding: 3px;
     margin: 3px;
     display: none;
-
-
+    -webkit-box-shadow: -6px 14px 9px -1px #000000; 
+    box-shadow: -6px 14px 9px -1px #000000;
+}
+.short-summary{
+    background: rgba(7, 7, 7, 0.7);
+    font-size: large;    
+    -webkit-box-shadow: -6px 14px 9px -1px #000000; 
+    box-shadow: -6px 14px 9px -1px #000000;
+}
+.about-me{
+    background: rgba(7, 7, 7, 0.7);
+    font-size: large;    
+    -webkit-box-shadow: -6px 14px 9px -1px #000000; 
+    box-shadow: -6px 14px 9px -1px #000000;
 }
 
+.learning{
+    background: rgba(7, 7, 7, 0.7);
+    font-size: large;  
+    -webkit-box-shadow: -6px 14px 9px -1px #000000; 
+    box-shadow: -6px 14px 9px -1px #000000;  
+    margin-bottom: 150px;
 
+}
+.learning a{
+    color: white;
+    text-decoration: underline;
+}
 
+/*contact*/
+.main-contact-box{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:white;
+}
 
+.phone, .email, .adress{
+    background: rgba(7, 7, 7, 0.7);
+    font-size: large;    
+    -webkit-box-shadow: -6px 14px 9px -1px #000000; 
+    box-shadow: -6px 14px 9px -1px #000000;
+    position: relative;
+    padding: 1px;
+    margin-bottom: 25px;
+}
 
-
+.main-contact-box img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+}
 
 
 /* the footer*/
